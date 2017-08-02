@@ -1,0 +1,32 @@
+{
+    "name": "nestflux",
+    "version": "0.0.0",
+    "description": "Import Nest thermostat and Weather Underground data into InfluxDB",
+    "keywords": [
+        "nest",
+        "thermostat",
+        "wunderground",
+        "weather",
+        "influx",
+        "influxdb"
+    ],
+    "author": {
+        "name": "Nathan Brown",
+        "email": "nbrown.us@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nbrownus/nestflux.git"
+    },
+    "main": "./index",
+    "license": "MIT",
+    "engines": {
+        "node": ">= 0.10.x"
+    },
+    "dependencies": {
+        "unofficial-nest-api": "^0.1.4"
+    },
+    "devDependencies": {
+        "istanbul": "0.1.x"
+    }
+}
